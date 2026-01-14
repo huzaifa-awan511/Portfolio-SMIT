@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px;   
+}
+
+.nav-items li{
+    padding: 15px 20px;
+    list-style: none;
+    font-size: larger;
+    color: white;
+}
+.nav-btn{
+    width: 150px;
+    margin: 20px 25px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(227, 164, 47);
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: large;
+}
