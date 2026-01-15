@@ -14,10 +14,10 @@
 /* the actual box */
 .login-box{
     background-color: white;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     padding: 40px;
     border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 1);
     width: 30vw;
     text-align: center;
 }
