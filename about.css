@@ -45,13 +45,9 @@
     padding: 20px 0;
     margin-top: 50px;
     min-height: 100px;
-    /* justify-content: center;
-    align-items: center; */
-}
-.foot-items{
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 .f-items1{
     display: flex;
