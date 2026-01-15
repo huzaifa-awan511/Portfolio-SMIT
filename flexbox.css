@@ -32,15 +32,30 @@
     text-decoration: none;
     color: white;
 }
+.nav-form{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
 .nav-btn{
+    /* layout and shape */
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 50px;
+    /* color and text */
+    background-color: white;
+    text-decoration: none;
+    font-size: 16px;
     width: 150px;
     margin: 20px 25px;
-    padding: 10px;
+    /* interaction */
+    transition: background-color 0.3s ease;
     border: none;
-    background-color: white;
-    border-radius: 35px;
     cursor: pointer;
-    font-size: large;
+}
+.nav-btn:hover{
+    background-color: #f29b06;
 }
 /* from there content */
 .cont-img{

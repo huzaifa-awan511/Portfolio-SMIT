@@ -3,10 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign-up.css">
 </head>
 <body>
-    helooooooooo
+    <!-- this div is total signup box of the page  -->
+    <div class="sign-up-container">
+        <!-- this is form for sign up -->
+        <form class="sign-up-box">
+            <!-- heading of the content  -->
+            <h2>Registration From</h2>
+            <!-- now i am taking input one by one in separate divs -->
+
+            <!-- fro name  -->
+            <div class="input-group">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required>
+            </div>
+            <!-- for username -->
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <!-- for email  -->
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <!-- for phone number -->
+            <div class="input-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <!-- for password -->
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <!-- here is the submit button -->
+            <button class="sign-up-submit" type="submit">Sign Up</button>
+
+            <!-- form closes here -->
+        </form>
+
+        <!-- the main box of the page's div closes here -->
+    </div>
     
 </body>
 </html>
